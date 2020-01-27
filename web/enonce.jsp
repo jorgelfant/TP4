@@ -89,6 +89,31 @@ Bien évidemment, vous n'oublierez pas d'inclure le jar de la JSTL au répertoir
 les balises opérationnelles. Voici à la figure suivante l'allure de l'arborescence que vous devriez obtenir une fois
 le TP terminé.
 
+Vous pouvez remarquer en encadré les trois nouveaux fichiers intervenant dans votre projet : le fichier jar de la JSTL,
+la page menu.jsp et la page inc_client_form.jsp.
+
+********************************
+Application des bonnes pratiques
+********************************
+
+Il vous suffit ici de remplacer toutes les chaînes de caractères utilisées directement dans le code de vos servlets
+par des constantes définies en dehors des méthodes doGet(), comme je vous l'ai montré dans l'avant-dernier chapitre.
+
+C'est tout ce dont vous avez besoin. Au travail !
+
+Correction
+**********
+
+Faible dose de travail cette fois, j'espère que vous avez bien pris le temps de relire les explications concernant
+les différentes balises à mettre en jeu. Encore une fois, ce n'est pas la seule manière de faire, ne vous inquiétez
+pas si vous avez procédé différemment ; le principal est que vous ayez couvert tout ce qu'il fallait couvrir !
+Pour que vous puissiez repérer rapidement ce qui a changé, j'ai surligné les modifications apportées aux codes existants.
+
+Prenez le temps de réfléchir, de chercher et de coder par vous-mêmes. Si besoin, n'hésitez pas à relire le sujet
+ou à retourner lire certains chapitres. La pratique est très importante, ne vous ruez pas sur la solution !
+
+Code des servlets
+
 
 --%>
 
