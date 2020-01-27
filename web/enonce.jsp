@@ -114,6 +114,12 @@ ou à retourner lire certains chapitres. La pratique est très importante, ne vo
 
 Code des servlets
 
+Nous y voilà enfin : nous sommes capables de créer des vues qui suivent le modèle MVC .
+Seulement maintenant que nous sommes au point, nous aimerions bien interagir avec notre client : comment récupérer et gérer les données qu'il va nous envoyer ?
+
+Rendez-vous dans la partie suivante, nous avons du pain sur la planche !
+
+
 
 --%>
 
