@@ -63,6 +63,11 @@ public class CreationClient extends HttpServlet {
         request.setAttribute(ATT_ERREUR, erreur);
 
         /* Transmission à la page JSP en charge de l'affichage des données */
-        this.getServletContext().getRequestDispatcher(VUE).forward(request, response);
+        if (erreur) {
+            this.getServletContext().getRequestDispatcher("/creerClient.jsp").forward(request, response);
+        } else {
+            this.getServletContext().getRequestDispatcher(VUE).forward(request, response);
+        }
+
     }
 }

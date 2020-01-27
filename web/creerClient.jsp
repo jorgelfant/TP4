@@ -16,6 +16,8 @@
 </head>
 <body>
 <c:import url="/inc/menu.jsp" />
+<p class="info">${ message }</p>
+
 <div>
     <form method="get" action="<c:url value="/creationClient"/>">
         <fieldset>
